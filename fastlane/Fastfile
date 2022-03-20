@@ -1,0 +1,3 @@
+lane :test do
+  hot_cold_deploy
+end

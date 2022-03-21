@@ -1,15 +1,15 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fastlane/plugin/hot_cold_deploy/version'
+require 'fastlane/plugin/hard_soft_deploy/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-hot_cold_deploy'
-  spec.version       = Fastlane::HotColdDeploy::VERSION
+  spec.name          = 'fastlane-plugin-hard_soft_deploy'
+  spec.version       = Fastlane::HardSoftDeploy::VERSION
   spec.author        = 'Kaden Wilkinson'
   spec.email         = '7799267+kdawgwilk@users.noreply.github.com'
 
-  spec.summary       = 'Plugin to determine whether a react-native release needs to be a hot or cold release based on changes in git'
-  spec.homepage      = "https://github.com/kdawgwilk/fastlane-plugin-hot_cold_deploy"
+  spec.summary       = 'Plugin to determine whether a react-native release needs to be a hard or soft release based on changes in git'
+  spec.homepage      = "https://github.com/kdawgwilk/fastlane-plugin-hard_soft_deploy"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)

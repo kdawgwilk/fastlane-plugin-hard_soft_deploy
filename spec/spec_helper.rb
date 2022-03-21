@@ -10,6 +10,6 @@ module SpecHelper
 end
 
 require 'fastlane' # to import the Action super class
-require 'fastlane/plugin/hot_cold_deploy' # import the actual plugin
+require 'fastlane/plugin/hard_soft_deploy' # import the actual plugin
 
 Fastlane.load_actions # load other actions (in case your plugin calls other actions or shared values)

@@ -1,15 +1,15 @@
 require 'fastlane/action'
-require_relative '../helper/hot_cold_deploy_helper'
+require_relative '../helper/hard_soft_deploy_helper'
 
 module Fastlane
   module Actions
-    class HotColdDeployAction < Action
+    class HardSoftDeployAction < Action
       def self.run(params)
-        UI.message("The hot_cold_deploy plugin is working!")
+        UI.message("The hard_soft_deploy plugin is working!")
       end
 
       def self.description
-        "Plugin to determine whether a react-native release needs to be a hot or cold release based on changes in git"
+        "Plugin to determine whether a react-native release needs to be a hard or soft release based on changes in git"
       end
 
       def self.authors
@@ -22,15 +22,15 @@ module Fastlane
 
       def self.details
         # Optional:
-        "Plugin to determine whether a react-native release needs to be a hot or cold release based on changes in git"
+        "Plugin to determine whether a react-native release needs to be a hard or soft release based on changes in git"
       end
 
       def self.available_options
         [
           # FastlaneCore::ConfigItem.new(key: :your_option,
-          #                         env_name: "HOT_COLD_DEPLOY_YOUR_OPTION",
+          #                         env_name: "HARD_SOFT_DEPLOY_OPTION",
           #                      description: "A description of your option",
-          #                         optional: false,
+          #                         optional: true,
           #                             type: String)
         ]
       end

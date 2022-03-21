@@ -1,18 +1,18 @@
-# hot_cold_deploy plugin
+# hard_soft_deploy plugin
 
-[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-hot_cold_deploy)
+[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-hard_soft_deploy)
 
 ## Getting Started
 
-This project is a [_fastlane_](https://github.com/fastlane/fastlane) plugin. To get started with `fastlane-plugin-hot_cold_deploy`, add it to your project by running:
+This project is a [_fastlane_](https://github.com/fastlane/fastlane) plugin. To get started with `fastlane-plugin-hard_soft_deploy`, add it to your project by running:
 
 ```bash
-fastlane add_plugin hot_cold_deploy
+fastlane add_plugin hard_soft_deploy
 ```
 
-## About hot_cold_deploy
+## About hard_soft_deploy
 
-Plugin to determine whether a react-native release needs to be a hot or cold release based on changes in git
+Plugin to determine whether a react-native release needs to be a hard or soft release based on changes in git
 
 **Note to author:** Add a more detailed description about this plugin here. If your plugin contains multiple actions, make sure to mention them here.
 

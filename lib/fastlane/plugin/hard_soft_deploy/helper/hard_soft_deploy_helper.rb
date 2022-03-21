@@ -4,12 +4,12 @@ module Fastlane
   UI = FastlaneCore::UI unless Fastlane.const_defined?(:UI)
 
   module Helper
-    class HotColdDeployHelper
+    class HardSoftDeployHelper
       # class methods that you define here become available in your action
-      # as `Helper::HotColdDeployHelper.your_method`
+      # as `Helper::HardSoftDeployHelper.your_method`
       #
       def self.show_message
-        UI.message("Hello from the hot_cold_deploy plugin helper!")
+        UI.message("Hello from the hard_soft_deploy plugin helper!")
       end
     end
   end
